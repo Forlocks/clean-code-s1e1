@@ -9,23 +9,23 @@
   </head>
   <body class="page">
     <section class="matrix">
-      <img class="matrix-img" src="./eisenhower-matrix.jpg" alt="eisenhower matrix">
+      <img class="matrix__img" src="./eisenhower-matrix.jpg" alt="eisenhower matrix">
       <a
-        class="more-inf-link"
+        class="matrix__more-link"
         href="https://goal-life.com/page/method/matrix-eisenhower"
       >Want more details?</a>
     </section>
-    <section class="functions">
-      <article>
-        <h1 class="function-title">Add Item</h1>
-        <div class="add-task">
+    <section class="function">
+      <div class="function__add">
+        <h1 class="function__add__title">Add Item</h1>
+        <div class="function__add__task">
           <input class="input-text task-name input" id="new-task" type="text">
           <button class="button">Add</button>
         </div>
-      </article>
-      <article>
-        <h2 class="function-title">Todo</h2>
-        <ul id="outstanding-tasks" class="task-list">
+      </div>
+      <article class="function__to-do">
+        <h2 class="function__to-do__title">Todo</h2>
+        <ul class="function__to-do__list">
           <li class="task">
             <input class="input-checkbox input" type="checkbox">
             <label class="task-name label">Pay Bills</label>
@@ -46,9 +46,9 @@
           </li>
         </ul>
       </article>
-      <article>
-        <h2 class="function-title">Completed</h2>
-        <ul id="completed-tasks" class="task-list">
+      <article class="function__complete">
+        <h2 class="function__complete__title">Completed</h2>
+        <ul class="function__complete__list">
           <li class="task">
             <input class="input-checkbox input" type="checkbox" checked>
             <label class="task-name label">See the Doctor</label>

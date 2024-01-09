@@ -72,8 +72,7 @@
 }
 
 /* Heading */
-.function-title,
-.label#new-task {
+.function-title {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -101,7 +100,7 @@
 }
 
 /* New Task */
-.label#new-task {
+.functions > *:first-child > .function-title {
   display: block;
   margin: 0 0 20px;
 }
